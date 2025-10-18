@@ -1,7 +1,7 @@
 # ---- Core scientific stack (Python 3.11 recommended) ----
 numpy==2.2.*
 pandas>=2.2,<3.0
-scipy>=1.11,<1.14
+#scipy>=1.11,<1.14
 
 # ---- ML core ----
 scikit-learn>=1.4,<1.6  # solid with Yellowbrick/mlxtend
@@ -20,4 +20,4 @@ ipykernel>=6.29,<7
 # ---- Model evaluation & explainability ----
 mlxtend>=0.23,<0.24
 yellowbrick>=1.5,<1.7
-shap>=0.46,<0.47
+#shap>=0.46,<0.47
